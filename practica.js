@@ -4,13 +4,13 @@ let count = initial;
 while (count <= final) {
     if (count % 3 === 0) {
         if (count % 5 === 0){
-            console.log("talvez");
+            console.log("Caera la republica");
         }
-        console.log("si");
+        console.log("fizz");
         count++;
     }
     if (count % 5 === 0) {
-        console.log("no");
+        console.log("fuzz");
         count++;
     }
     else {
